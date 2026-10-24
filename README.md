@@ -6,12 +6,12 @@
 
 ---
 
-### 🏆 Mandatory Attribution & Team Details
+### 🏆 Mandatory Attribution & Project Identity
 * **Project Name:** **BrandPilot — Trust Before Publish**
-* **Team Name:** **ALTO** (Team Size: 2)
-* **Team Leader:** **CHITHYALA ANUHYA** (`maggi7658@gmail.com`)
-* **Team Member:** **SANDA RUPESH** (`sandarupesh4@gmail.com`)
-* **Attribution Notice:** **Crafted with care by CHITHYALA ANUHYA & SANDA RUPESH · Team ALTO**
+* **Crafted with care by:** **CH. ANUHYA · Team ALTO**
+* **Designed & Developed by:** **CH. ANUHYA | Team ALTO**
+* **Primary Contact:** `maggi7658@gmail.com`
+* **Team Identity:** **Team ALTO**
 
 ---
 
@@ -153,16 +153,15 @@ Approved sources → Draft intake → Evidence-based checks → Explainable find
 
 ---
 
-## 7. Responsibilities of Each Team Member
+## 7. Leadership & Technical Responsibilities
 
-| Participant | Proposed Role | Primary Responsibilities | Secondary Responsibilities | Handoff Points |
-|---|---|---|---|---|
-| **CHITHYALA ANUHYA** | **Product and Problem Lead** | Problem framing, user journeys, scope, and demo narrative. | Interview notes and prioritisation. | Hands off user needs and scope to UX and engineering. |
-| **SANDA RUPESH** | **UX and Frontend Lead** | Information architecture, responsive interface, review experience, and accessibility. | Prototype testing and content design. | Hands off interaction flows and UI states to backend and QA. |
-| **SANDA RUPESH** | **Backend and Workflow Lead** | FastAPI services, workflow states, permissions, and audit events. | Integration support and deployment checks. | Hands off APIs, state rules, and event contracts. |
-| **CHITHYALA ANUHYA** | **AI and Retrieval Lead** | Document ingestion, retrieval, prompt and evaluation design, uncertainty handling, and source citations. | Curated test cases and model-risk notes. | Hands off finding schemas, evidence behaviour, and evaluation notes. |
-| **CHITHYALA ANUHYA** | **Data and Security Lead** | PostgreSQL model, object storage, confidentiality controls, access policy, and logging. | Retention decisions and threat review. | Hands off data model, permissions, and security assumptions. |
-| **CHITHYALA ANUHYA** | **QA, Research, and Presentation Lead** | Test scenarios, measurable pilot targets, usability checks, documentation, and demo readiness. | Risk register and backup demo path. | Feeds defects, evidence, and narrative improvements back to the team. |
+| Lead Member | Roles & Focus Areas | Primary Responsibilities | Deliverables & Handoffs |
+|---|---|---|---|
+| **CH. ANUHYA** | **Product & Problem Lead** | Problem framing, user journeys, scope definition, and governance narrative. | User needs taxonomy and product review rubric. |
+| **CH. ANUHYA** | **AI & Retrieval Architecture Lead** | Document ingestion (PDF/DOCX), semantic passage chunking, RAG citation retrieval, and model uncertainty handling. | RAG pipeline, finding schemas, and evidence verification contracts. |
+| **CH. ANUHYA** | **Data & Security Lead** | PostgreSQL schema design, access policy rules, separation of duties, and immutable audit logging. | Data models, permission enforcement, and security auditing. |
+| **CH. ANUHYA** | **UX & Frontend Engineering** | React 19 interface, responsive light-mode review workspace, accessibility standards, and revision studio. | Accessible review workspace, issue cards, and human approval flow. |
+| **CH. ANUHYA** | **QA, Research & Presentation Lead** | Test scenarios, Section 19 SLA verification case, pilot KPI targets, and deployment readiness. | End-to-end verification suite, demo scripts, and documentation. |
 
 ---
 
@@ -243,5 +242,5 @@ BrandPilot comes pre-loaded with the exact scenario specified in the prompt:
 ---
 
 ### Attribution Notice
-* **Designed & Developed by:** **CHITHYALA ANUHYA (Team Lead) & SANDA RUPESH | Team ALTO**
+* **Designed & Developed by:** **CH. ANUHYA | Team ALTO**
 * **BrandPilot — Trust Before Publish**

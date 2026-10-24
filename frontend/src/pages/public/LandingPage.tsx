@@ -414,7 +414,7 @@ export const LandingPage: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="max-w-2xl mx-auto">
             {/* Anuhya */}
             <div className="bg-[#F7FAFF] rounded-2xl border border-[#D7E1EE] p-6 space-y-4 hover:shadow-md transition-shadow">
               <div className="flex items-center gap-4">
@@ -422,32 +422,14 @@ export const LandingPage: React.FC = () => {
                   CA
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-[#172B4D]">CHITHYALA ANUHYA</h3>
-                  <div className="text-xs font-semibold text-[#4169E1]">Team Leader · Product, AI &amp; Retrieval Lead</div>
+                  <h3 className="text-lg font-bold text-[#172B4D]">CH. ANUHYA</h3>
+                  <div className="text-xs font-semibold text-[#4169E1]">Lead Architect &amp; Product Engineer · Team ALTO</div>
                   <div className="text-xs text-[#526784]">maggi7658@gmail.com</div>
                 </div>
               </div>
               <div className="space-y-2 text-xs text-[#526784] border-t border-[#D7E1EE] pt-4">
-                <div><strong>Primary Responsibilities:</strong> Problem framing, user journeys, AI &amp; document retrieval, prompt &amp; evaluation design, uncertainty handling, source citations, data security &amp; access policies, QA &amp; pilot targets.</div>
-                <div><strong>Key Deliverables:</strong> RAG pipeline architecture, finding schema contracts, risk register, test scenarios, and product governance narrative.</div>
-              </div>
-            </div>
-
-            {/* Rupesh */}
-            <div className="bg-[#F7FAFF] rounded-2xl border border-[#D7E1EE] p-6 space-y-4 hover:shadow-md transition-shadow">
-              <div className="flex items-center gap-4">
-                <div className="w-14 h-14 rounded-2xl bg-[#15A99A] text-white flex items-center justify-center font-bold text-xl shadow-md">
-                  SR
-                </div>
-                <div>
-                  <h3 className="text-lg font-bold text-[#172B4D]">SANDA RUPESH</h3>
-                  <div className="text-xs font-semibold text-[#15A99A]">UX &amp; Frontend Lead · Backend &amp; Workflow Lead</div>
-                  <div className="text-xs text-[#526784]">sandarupesh4@gmail.com</div>
-                </div>
-              </div>
-              <div className="space-y-2 text-xs text-[#526784] border-t border-[#D7E1EE] pt-4">
-                <div><strong>Primary Responsibilities:</strong> Information architecture, responsive interface, accessibility auditing, review studio experience, FastAPI services, workflow state machine, role permissions, and immutable audit events.</div>
-                <div><strong>Key Deliverables:</strong> React 19 review workspace, human approval gates (separation of duties), API integration, and deployment automation.</div>
+                <div><strong>Core Focus:</strong> End-to-end brand governance architecture, RAG retrieval verification, explainable AI findings, human approval enforcement, and immutable auditability.</div>
+                <div><strong>Key Deliverables:</strong> React 19 review workspace, FastAPI backend services, approval state machine (separation of duties), and production deployment.</div>
               </div>
             </div>
           </div>
