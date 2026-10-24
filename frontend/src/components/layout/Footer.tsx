@@ -58,7 +58,9 @@ export const Footer: React.FC = () => {
         <div className="pt-6 border-t border-[#EBF1F8] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#526784]">
           <div className="flex items-center gap-1.5 font-medium text-[#172B4D]">
             <span>Crafted with care by</span>
-            <span className="font-bold text-[#4169E1]">CH. ANUHYA</span>
+            <span className="font-bold text-[#4169E1]">CHITHYALA ANUHYA</span>
+            <span>&amp;</span>
+            <span className="font-bold text-[#4169E1]">SANDA RUPESH</span>
             <span>·</span>
             <span className="font-semibold text-[#15A99A]">Team ALTO</span>
           </div>
@@ -68,7 +70,7 @@ export const Footer: React.FC = () => {
           </div>
 
           <div className="text-right text-[#526784]">
-            Designed &amp; Developed by <span className="font-semibold text-[#172B4D]">CH. ANUHYA</span> | <span className="font-semibold text-[#15A99A]">Team ALTO</span>
+            Designed &amp; Developed by <span className="font-semibold text-[#172B4D]">CHITHYALA ANUHYA</span> (Team Lead) &amp; <span className="font-semibold text-[#172B4D]">SANDA RUPESH</span> | <span className="font-semibold text-[#15A99A]">Team ALTO</span>
           </div>
         </div>
       </div>

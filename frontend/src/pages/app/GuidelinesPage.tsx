@@ -38,7 +38,7 @@ export const GuidelinesPage: React.FC = () => {
   const [prohibited, setProhibited] = useState('');
   const [preferred, setPreferred] = useState('');
   const [rationale, setRationale] = useState('');
-  const [severity, setSeverity] = useState('medium');
+  const [severity, setSeverity] = useState<'low' | 'medium' | 'high'>('medium');
 
   // Selected Guideline for details
   const [selectedGuideline, setSelectedGuideline] = useState<Guideline | null>(null);

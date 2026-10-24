@@ -399,8 +399,109 @@ export const LandingPage: React.FC = () => {
         </div>
       </section>
 
+      {/* Team ALTO Section from Master PDF */}
+      <section id="team" className="py-16 bg-white border-t border-[#D7E1EE]">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-3 mb-12">
+            <span className="text-xs font-bold uppercase tracking-wider text-[#4169E1] bg-[#EEF3FF] px-3 py-1 rounded-full border border-[#4169E1]/20">
+              Team ALTO Showcase
+            </span>
+            <h2 className="text-3xl font-bold tracking-tight text-[#172B4D]">
+              Engineered by Team ALTO
+            </h2>
+            <p className="text-sm text-[#526784] max-w-2xl mx-auto">
+              BrandPilot was architected and built to solve pre-publication governance friction by bringing evidence-backed retrieval, explainable checks, and human sign-off into one unified workflow.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Anuhya */}
+            <div className="bg-[#F7FAFF] rounded-2xl border border-[#D7E1EE] p-6 space-y-4 hover:shadow-md transition-shadow">
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 rounded-2xl bg-[#4169E1] text-white flex items-center justify-center font-bold text-xl shadow-md">
+                  CA
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-[#172B4D]">CHITHYALA ANUHYA</h3>
+                  <div className="text-xs font-semibold text-[#4169E1]">Team Leader · Product, AI &amp; Retrieval Lead</div>
+                  <div className="text-xs text-[#526784]">maggi7658@gmail.com</div>
+                </div>
+              </div>
+              <div className="space-y-2 text-xs text-[#526784] border-t border-[#D7E1EE] pt-4">
+                <div><strong>Primary Responsibilities:</strong> Problem framing, user journeys, AI &amp; document retrieval, prompt &amp; evaluation design, uncertainty handling, source citations, data security &amp; access policies, QA &amp; pilot targets.</div>
+                <div><strong>Key Deliverables:</strong> RAG pipeline architecture, finding schema contracts, risk register, test scenarios, and product governance narrative.</div>
+              </div>
+            </div>
+
+            {/* Rupesh */}
+            <div className="bg-[#F7FAFF] rounded-2xl border border-[#D7E1EE] p-6 space-y-4 hover:shadow-md transition-shadow">
+              <div className="flex items-center gap-4">
+                <div className="w-14 h-14 rounded-2xl bg-[#15A99A] text-white flex items-center justify-center font-bold text-xl shadow-md">
+                  SR
+                </div>
+                <div>
+                  <h3 className="text-lg font-bold text-[#172B4D]">SANDA RUPESH</h3>
+                  <div className="text-xs font-semibold text-[#15A99A]">UX &amp; Frontend Lead · Backend &amp; Workflow Lead</div>
+                  <div className="text-xs text-[#526784]">sandarupesh4@gmail.com</div>
+                </div>
+              </div>
+              <div className="space-y-2 text-xs text-[#526784] border-t border-[#D7E1EE] pt-4">
+                <div><strong>Primary Responsibilities:</strong> Information architecture, responsive interface, accessibility auditing, review studio experience, FastAPI services, workflow state machine, role permissions, and immutable audit events.</div>
+                <div><strong>Key Deliverables:</strong> React 19 review workspace, human approval gates (separation of duties), API integration, and deployment automation.</div>
+              </div>
+            </div>
+          </div>
+
+          {/* 9 Design Principles from PDF */}
+          <div className="mt-10 p-6 rounded-2xl bg-[#EEF3FF]/60 border border-[#4169E1]/20">
+            <h4 className="text-sm font-bold text-[#172B4D] mb-3 flex items-center gap-2">
+              <ShieldCheck className="w-4 h-4 text-[#4169E1]" />
+              Core Design Principles (from Specification)
+            </h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-xs text-[#172B4D]">
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#15A99A] shrink-0" />
+                <span>Human approval before publishing</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#15A99A] shrink-0" />
+                <span>Explainability over opaque scoring</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#15A99A] shrink-0" />
+                <span>Purpose-preserving suggestions</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#15A99A] shrink-0" />
+                <span>Evidence before assertion</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#15A99A] shrink-0" />
+                <span>Least-privilege access</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#15A99A] shrink-0" />
+                <span>Confidentiality by default</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#15A99A] shrink-0" />
+                <span>Uncertainty made visible</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#15A99A] shrink-0" />
+                <span>Accessible review experiences</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#15A99A] shrink-0" />
+                <span>Learning from repeated issues</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Final Call to Action */}
-      <section className="py-16 bg-white border-t border-[#D7E1EE]">
+      <section className="py-16 bg-[#F7FAFF] border-t border-[#D7E1EE]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
           <h2 className="text-3xl font-bold text-[#172B4D]">
             Protect your brand's integrity before anything goes live.
