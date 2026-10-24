@@ -13,6 +13,12 @@
 
 ---
 
+### 🌐 Live Deployment & Links
+* **Live Website URL**: [https://7a0ac6edb19771.lhr.life](https://7a0ac6edb19771.lhr.life)
+* **GitHub Repository**: [https://github.com/maggi7658-creator/brandpilot](https://github.com/maggi7658-creator/brandpilot)
+
+---
+
 ## 1. Executive Summary & Problem Statement
 
 Organizations publish content across websites, advertising campaigns, social channels, and press releases at high velocity. Even with established brand guidelines and SLAs, manual reviews are frequently delayed, inconsistent, and scattered across fragmented chat and email threads.
